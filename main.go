@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fs := http.FileServer(http.Dir("./build"))
+	fs := http.FileServer(http.Dir("./updated"))
 	http.Handle("/", fs)
 
 	PORT := os.Getenv("PORT")
