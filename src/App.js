@@ -29,7 +29,7 @@ function App() {
       <Grid item xs={12} align="center" style={{marginTop:'3vh'}}>
         <Button variant="outlined" color="primary" disabled={true} style={{marginInlineEnd:'10px'}}> Uniswap </Button>
         <Button variant="outlined" color="primary" disabled={false} href="https://t.me/ZZZfinance" style={{marginInlineEnd:'10px'}}> Telegram </Button>
-        <Button variant="outlined" color="primary" disabled={false} href="http://pool.zzz.finance"> Pools </Button>
+        <Button variant="outlined" color="primary" disabled={false} href="https://pool.zzz.finance"> Pools </Button>
       </Grid>
       <Grid item xs={12} align="center">
         <Typography variant="body1"> Token Address: <Link href=" https://etherscan.io/address/0xc75F15AdA581219c95485c578E124df3985e4CE0"> 0xc75F15AdA581219c95485c578E124df3985e4CE0 </Link></Typography>
