@@ -14,7 +14,7 @@ import {
 function App() {
   return (
     // Global grid
-    <Grid 
+    <Grid
     container
     spacing={2}
     justify="center"
@@ -29,7 +29,7 @@ function App() {
       <Grid item xs={12} align="center" style={{marginTop:'3vh'}}>
         <Button variant="outlined" color="primary" disabled={true} style={{marginInlineEnd:'10px'}}> Uniswap </Button>
         <Button variant="outlined" color="primary" disabled={false} href="https://t.me/ZZZfinance" style={{marginInlineEnd:'10px'}}> Telegram </Button>
-        <Button variant="outlined" color="primary" disabled={false} href="https://gov.zzz.finance"> Governance </Button>
+        <Button variant="outlined" color="primary" disabled={false} href="https://pool.zzz.finance"> Pools </Button>
       </Grid>
       <Grid item xs={12} align="center">
         <Typography variant="body1"> Token Address: <Link href=" https://etherscan.io/address/0xc75F15AdA581219c95485c578E124df3985e4CE0"> 0xc75F15AdA581219c95485c578E124df3985e4CE0 </Link></Typography>
@@ -37,15 +37,15 @@ function App() {
       {/* Body 1 */}
       <Grid item xs={6} style={{textAlign:'center',marginTop:'50px',marginLeft:'15%',marginRight:'15%'}}>
           <Typography variant="h4"> What is ZZZ? </Typography>
-          <Typography variant="body1"> 
-          ZZZ is a counter to the a YFI clone OWO. ZZZ aims to be what OWO fails to be with the creation of Pool A and a working Pool B. Rewards will be sent imemdiately to 
+          <Typography variant="body1">
+          ZZZ is a counter to the a YFI clone OWO. ZZZ aims to be what OWO fails to be with the creation of Pool A and a working Pool B. Rewards will be sent imemdiately to
           Pool A and Pool B to immediately increase trust in the project.
           </Typography>
       </Grid>
       {/* Body 2 */}
       <Grid item xs={6} style={{textAlign:'center',marginTop:'50px',marginLeft:'15%',marginRight:'15%'}}>
           <Typography variant="h4"> No OTC/Dev wallet/ Presale </Typography>
-          <Typography variant="body1"> 
+          <Typography variant="body1">
           From day 0, all tokens will be sent to the reward contract. This project will follow closely the original tokenomics, 15,000 initial liqudity on uniswap along with 5,000 reserved for rewards.
           Uniswap liqudity will be locked in Pool B.
           </Typography>
@@ -54,13 +54,13 @@ function App() {
        <Grid item xs={6} style={{textAlign:'center',marginTop:'50px',marginLeft:'15%',marginRight:'15%'}}>
           <Typography variant="h4"> Tokenomics </Typography>
           <Typography variant="body1"> <strong> No OTC,DEV or Early Wallet. 100% Owned by the community</strong> </Typography>
-          <Typography variant="body1"> 
+          <Typography variant="body1">
             Total Supply: 20,000 ZZZ
           </Typography>
-          <Typography variant="body1"> 
+          <Typography variant="body1">
             Initial Supply to Uniswap: 15,000 ZZZ - 20 ETH
           </Typography>
-          <Typography variant="body1"> 
+          <Typography variant="body1">
             Supply reserved for rewards: 5000 ZZZ (5000 Pool A)
           </Typography>
       </Grid>
@@ -76,7 +76,7 @@ function App() {
             Individuals who stake their BPT tokens to Pool A will be rewarded a share of 5,000 ZZZ tokens over a period of 10 weeks.
           </Typography>
       </Grid>
-      
+
       {/* Body 3 */}
       <Grid item xs={6} style={{textAlign:'center',marginTop:'50px',marginLeft:'15%',marginRight:'15%'}}>
           <Typography variant="h4"> Pool B - 547 UNISWAP-V2 token rewards</Typography>
@@ -87,13 +87,13 @@ function App() {
             Individuals who stake their ZZZ tokens to Pool B will be rewarded a share of 547 UNISWAP-V2 tokens over a period of 10 weeks.
           </Typography>
       </Grid>
-      
-     
-      
+
+
+
       {/* Body 4 */}
       <Grid item xs={6} style={{textAlign:'center',marginTop:'50px',marginLeft:'15%',marginRight:'15%'}}>
           <Typography variant="h4"> Safety </Typography>
-          <Typography variant="body1"> 
+          <Typography variant="body1">
           Liqudity tokens from Uniswap will be sent to Pool B. Hence, the only way to get ownership of this liqudity is to stake ZZZ tokens. With the fair distribution of ZZZ tokens via the initial Uniswap Sale + Pool A farming,
           this ensures that the liqudity is spread evenly to all community holders. The ZZZ token has the admin keys already burnt, and no new tokens can be minted. This makes it impossible for a third party
           to drain any liqudity pools.
@@ -112,7 +112,7 @@ function App() {
           <Typography variant="body1"> Pool A Address: <Link href="https://etherscan.io/address/0x2d0b69300c4637625681a19d840e8e9c1ebe4126#readContract">0x2d0b69300c4637625681a19d840e8e9c1ebe4126</Link> </Typography>
           <Typography variant="body1"> Pool B Address: <Link href="https://etherscan.io/address/0xeEE0B2ED62615441CE31c3166a4179a4B8FcE615#readContract">0xeEE0B2ED62615441CE31c3166a4179a4B8FcE615</Link> </Typography>
       </Grid>
-      
+
       {/* Body 5 */}
       <Grid item xs={6} style={{textAlign:'center',marginTop:'50px',marginLeft:'15%',marginRight:'15%'}}>
           <Typography variant="h4"> Disclaimer </Typography>
